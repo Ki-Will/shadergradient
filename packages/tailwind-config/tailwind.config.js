@@ -73,29 +73,4 @@ module.exports = {
         allControl: '5', // keeping it lower than 10 (Framer's max zIndex on control)
       },
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [
-    plugin(function ({ addUtilities }) {
-      addUtilities({
-        '.hide-scrollbar': {
-          '-ms-overflow-style': 'none' /* for Internet Explorer, Edge */,
-          'scrollbar-width': 'none' /* for Firefox */,
-        },
-        '.hide-scrollbar::-webkit-scrollbar': {
-          display: 'none' /* for Chrome, Safari, and Opera */,
-        },
-        '.hide-arrow::-webkit-outer-spin-button': {
-          '-webkit-appearance': 'none',
-          margin: '0',
-        },
-        '.hide-arrow::-webkit-inner-spin-button': {
-          '-webkit-appearance': 'none',
-          margin: '0',
-        },
-      })
-    }),
-  ],
-}
+  },;

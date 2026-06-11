@@ -75,4 +75,4 @@ module.exports = (_phase, { defaultConfig }) => {
   })
 
   return finalConfig
-}
+};

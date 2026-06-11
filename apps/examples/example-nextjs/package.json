@@ -40,9 +40,9 @@
   },
   "scripts": {
     "lint": "next lint --fix --dir app",
-    "build": "next build",
+    "build": "node init && next build",
     "analyze": "ANALYZE=true next build",
-    "start": "next start",
+    "start": "node init && next start",
     "prettier": "npx prettier --list-different \"./src/**/*.{ts,tsx,md}\" \"./app/**/*.{ts,tsx,md}\"\""
   }
 }

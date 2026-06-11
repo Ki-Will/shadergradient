@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "code.js",
   "scripts": {
-    "dev": "webpack --config ./webpack.config.js --mode development --watch",
+    "dev": "node init && webpack --config ./webpack.config.js --mode development --watch",
     "plugin:build": "webpack --config ./webpack.config.js --mode production"
   },
   "dependencies": {

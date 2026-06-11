@@ -59,4 +59,4 @@ module.exports = (env, argv) => ({
     }),
     new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/ui/]),
   ],
-})
+});
